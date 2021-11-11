@@ -9,7 +9,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.codelab.layoutsinjetpackcompose.ui.theme.LayoutsCodelabTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,7 +16,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             LayoutsCodelabTheme {
-                ScrollingList()
+                BodyContent()
             }
         }
     }
@@ -50,11 +49,11 @@ fun LayoutsCodelab() {
 //        Text(text = "Thanks for going through the Layouts codelab")
 //    }
 //}
-
-@Preview
-@Composable
-fun LayoutsCodelabPreview() {
-    LayoutsCodelabTheme {
-        LayoutsCodelab()
-    }
-}
+//
+//@Preview
+//@Composable
+//fun LayoutsCodelabPreview() {
+//    LayoutsCodelabTheme {
+//        LayoutsCodelab()
+//    }
+//}

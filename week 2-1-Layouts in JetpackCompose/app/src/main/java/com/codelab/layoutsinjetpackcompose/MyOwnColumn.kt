@@ -1,11 +1,8 @@
 package com.codelab.layoutsinjetpackcompose
 
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.Layout
-import androidx.compose.ui.unit.dp
 
 @Composable
 fun MyOwnColumn(
@@ -40,12 +37,12 @@ fun MyOwnColumn(
     }
 }
 
-@Composable
-fun BodyContent(modifier: Modifier = Modifier) {
-    MyOwnColumn(modifier.padding(8.dp)) {
-        Text("MyOwnColumn")
-        Text("places items")
-        Text("vertically.")
-        Text("We've done it by hand!")
-    }
-}
+//@Composable
+//fun BodyContent(modifier: Modifier = Modifier) {
+//    MyOwnColumn(modifier.padding(8.dp)) {
+//        Text("MyOwnColumn")
+//        Text("places items")
+//        Text("vertically.")
+//        Text("We've done it by hand!")
+//    }
+//}
